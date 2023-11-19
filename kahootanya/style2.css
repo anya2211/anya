@@ -1,0 +1,10 @@
+body{
+background-image: url(winner.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+}
+a{
+    background-color: rgb(223, 41, 41);
+    width: 200px;
+    border-radius: 20px;
+}

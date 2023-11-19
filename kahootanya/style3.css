@@ -1,0 +1,27 @@
+body{
+    background-image: url(lose.png);
+    background-repeat: repeat;
+    background-size: cover;
+}
+.win{
+    background-image: url(winner.jpg);
+}
+.now{
+    color: rgb(0, 0, 0);
+ display: block;
+ margin: 0 auto;
+ width: max-content;
+ border: 1px solid rgb(0, 0, 0);
+ padding: 20px;
+ font-weight: 900;
+ text-decoration: none;
+ font-size: 30px;
+}
+h1{
+    width: max-content;
+margin: 0 auto;
+}
+.now2{
+    color: white;
+    border: 1px solid white;
+}
