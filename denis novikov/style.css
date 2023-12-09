@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+.conteiner{
+    max-width: 80%;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 25px;
+
+}
+
+.home1{
+display: flex;
+justify-content: space-between;
+}
+.home{
+    color: black;
+}
+a{
+text-decoration: none;
+}
+
+hr{
+    margin-top: 30px;
+}
+
+
+
+.denis{
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    margin-top: 20px;
+   
+}
+
+.novik{
+    margin: 0 auto; 
+    display: block;
+    margin-top: 40px; 
+}
+
+.conteiner3{
+    margin-top: 50px;
+   
+}
+.about{
+    text-align: center;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+.bio{
+    margin-top: 30px;
+}
+.bio2{
+    margin-top: 30px;
+}
+.bio3{
+    margin-top: 30px;
+}
+
+
+.wrap{
+   text-align: center;
+   margin-top: 150px;
+}
+.zagolovok{
+    margin-top: 70px;
+}
+
+.wrap2{
+    margin-top: 85px;
+  
+}
+
+.kards{
+    display: flex;
+    justify-content:space-around;
+    margin: 0 auto;
+    
+}
+.adobe{
+    margin-top: 15px;
+}
+.stars{
+    margin-top: 15px;
+}
+
+
+
+.h1port{
+    margin-top: 200px;
+    text-align: center;
+}
+
+.port{
+ margin-top: 100px;
+  width: 100%;
+}
+.ssilka{
+margin-top: 60px;
+text-align: center;
+color: black;
+}
+
+
+.conteiner7{
+    
+    background: #F6F6F6;
+}
+.conteiner6{
+    background: #F6F6F6;
+}
+.conteiner5{
+    background: #F6F6F6;
+}
+
+
+
+.contacts{
+   text-align: center;
+   margin-top: 100px;
+}
+
+.chat{
+    margin-top: 50px;
+}
+.messege{
+    text-align: center;
+    margin-top: 80px;
+}
+.send{
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 30px;
+    background-color:black ;
+    color: white;
+}
+
+.kards2{
+    margin-top: 70px;
+display: flex;
+justify-content: center;
+gap: 60px;
+}
+
+.like{
+    text-align: center;
+    margin-top: 40px;
+}
+.like2{
+    color: #828282;
+}
