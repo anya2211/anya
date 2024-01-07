@@ -1,0 +1,1 @@
+$toggleClassNew(".burger", ".header__menu", "active")
