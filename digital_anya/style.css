@@ -13,6 +13,7 @@ body {
   margin: 0 auto;
   max-width: 1065px;
   width: 100%;
+  padding: 0 15px;
 }
 .header__wrapper {
   display: flex;
@@ -192,6 +193,7 @@ margin-top: 10px;
 
 .footer {
     margin-bottom: 110px;
+    margin-top: 40px;
 }
 .conteiner {
 }
@@ -221,3 +223,48 @@ text-transform: capitalize;
     margin-top: 50px;
 
 }
+
+
+
+
+@media (max-width: 900px){
+
+    .hero__wrapper{
+        flex-direction: column;
+    }
+    .hero__img {
+        max-width: 300px;
+    }
+}
+
+
+
+@media (max-width: 600px){
+    .header__menu{
+       
+        display: none;
+    }
+}
+
+@media (max-width: 530px){
+    .brand__wrapper{
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width: 670px){
+    .people__wrapper{
+        flex-direction: column;
+    }
+    .footer__wrapper{
+    flex-direction: column ;
+    }
+}
+@media (max-width: 470px){
+.footer__box{
+    text-align: center;
+}
+}
+
+    
