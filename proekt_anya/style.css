@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+body {
+    background-color: black;
+ 
+}
+a{
+    color: rgba(255, 255, 255, 0.40);
+}
+.header {
+    text-decoration: none;
+    
+    
+}
+
+.container {
+
+    color: rgba(255, 255, 255, 0.40);
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.81px;
+}
+
+.header__logo {}
+
+.header__link {}
+
+
+
+
+.hero {
+    margin-top: 50px;
+    background-image: url(island.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container {
+   
+}
+.hero__wrapper {
+    display: flex;
+   
+}
+.hero__box {
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+   
+
+
+}
+.hero__title {
+    color: #FFF;
+
+font-size: 70px;
+font-style: italic;
+font-weight: 700;
+line-height: normal;
+
+letter-spacing: -3.15px;
+}
+.hero__text {
+    color: #FFF;
+
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -1.35px;
+
+}
+.hero__btn {
+    border-radius: 30px;
+background: linear-gradient(280deg, #FFF -23.59%, #DBB500 115.07%);
+box-shadow: 0px 0px 20px 0px #D6A500;
+padding: 20px 45px;
+font-size: 20px;
+width: 300px;
+}
+.hero__img {
+   max-width:800px;
+   width: 100%;
+}
