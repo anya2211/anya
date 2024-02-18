@@ -1,0 +1,25 @@
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+
+
+    a{
+        background-color: aquamarine;
+        color: black;
+        padding: 40px;
+        border: 1px solid black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-decoration: none;
+        transition: all 0.5s;
+
+        &:hover{
+            background-color: blue;
+            color: white;
+        }
+
+
+    }
+}

@@ -1,0 +1,38 @@
+.button{
+
+}
+.box{
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+
+.img{
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    margin: 50px auto;
+
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center;
+
+}
+
+.leo{
+background-image: url(https://i.pinimg.com/originals/7a/00/74/7a00749e25af0362ff30e4af38e51af8.jpg);
+}
+
+.don{
+    background-image:url(don.webp)
+}
+
+.mik{
+    background-image:url(https://pm1.aminoapps.com/8062/4daff4f982891c5fec489b6d64e00bf5419b6c2cr1-720-1012v2_uhq.jpg)
+}
+
+.raf{
+    background-image:url(raf.webp)
+}

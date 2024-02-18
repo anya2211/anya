@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="js2.css">
+</head>
+<body>
+    
+
+<div class="box">
+    <button class="btn1">леонардо</button>
+    <button class="btn2">донателло</button>
+    <button class="btn3">микеланджело</button>
+    <button class="btn4">рафаэль</button>
+</div>
+
+<div class="img">
+
+</div>
+
+<script>
+    const btn1 = document.querySelector('.btn1')
+    const btn2 = document.querySelector('.btn2')
+    const btn3 = document.querySelector('.btn3')
+    const btn4 = document.querySelector('.btn4')
+    const img = document.querySelector('.img')
+    
+    btn1.addEventListener('click', () =>{
+        img.classList.toggle('leo')
+        // img.classList.toggle('.don')
+        // img.classList.toggle('.mik')
+        // img.classList.toggle('.raf')
+     
+        
+    })
+     btn2.addEventListener('click', () =>{
+        img.classList.toggle('don')
+       
+        
+    })
+    btn3.addEventListener('click', () =>{
+        img.classList.toggle('mik')
+       
+        
+    })
+    btn4.addEventListener('click', () =>{
+        img.classList.toggle('raf')
+       
+        
+    })
+
+
+</script>
+
+
+</body>
+</html>

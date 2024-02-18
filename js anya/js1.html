@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="js1.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__wrap">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/512px-LEGO_logo.svg.png" alt="" class="logo">
+                
+                <div class="header__menu">
+
+                    <a href="">Home</a>
+                    <a href="">about</a>
+                    <a href="">contact</a>
+                    <a href="">portfolio</a>
+               
+                </div>
+
+                <input placeholder="поиск..." type="" class="header__search">
+                
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1024px-Hamburger_icon.svg.png" alt="" class="burger">
+           
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+
+
+
+    <script>
+
+        const burger = document.querySelector('.burger')
+        const body = document.querySelector('body')
+        const menu = document.querySelector('.header__menu')
+
+        burger.addEventListener('click', () =>{
+            menu.classList.toggle('open')
+            burger.classList.toggle('rotate')
+            body.classList.toggle('bg')
+            
+        })
+
+    </script>
+
+
+</body>
+</html>

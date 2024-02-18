@@ -1,0 +1,86 @@
+body{
+background-repeat: no-repeat;
+background-size: cover;
+
+    background-image: url( https://miro.medium.com/v2/resize:fit:2000/1*DHtmSfS_Efvuq8n2LAnhkA.png);
+transition: all 0.5s;
+
+
+}
+
+
+
+.header {
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+.header__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    width: 30px;
+}
+.header__menu {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    position: fixed;
+
+    left: 0;
+    bottom: -100% ;
+
+    width: 100%;
+    height: 200px;
+    background-color: grey;
+
+    transition: all 0.5s;
+
+    background: rgba( 255, 255, 255, 0.35 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 8.5px );
+-webkit-backdrop-filter: blur( 8.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+
+
+
+
+
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+}
+
+
+.burger{
+    width: 40px;
+    cursor: pointer;
+    rotate: 0deg;
+    transition: all 0.5s;
+}
+
+.open{
+  
+    bottom: 0;
+}
+
+
+.rotate{
+    rotate: 180deg;
+}
+
+.bg{
+    background-image: url(https://cdn.mos.cms.futurecdn.net/YU27iZYtiGC2MEMDBxDJAQ-1200-80.jpg);
+}
