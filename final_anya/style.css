@@ -1,10 +1,12 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   font-family: Poppins;
   background-color: black;
+  overflow-x: hidden;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .container {
@@ -22,6 +24,7 @@ header {
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .header__link {
@@ -61,6 +64,7 @@ button {
   padding: 10px;
   font-size: 15px;
 }
+
 
 .card1 {
   max-width: 583px;
@@ -114,6 +118,7 @@ button {
   padding: 200px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .coffee__img {
@@ -131,7 +136,7 @@ button {
 }
 
 .info2 {
-  margin-top: 30px;
+  padding: 50px 0;
 }
 
 .podxod {
@@ -139,6 +144,11 @@ button {
   padding: 200px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+}
+
+.podxod__h2 {
+  margin-bottom: 20px;
 }
 .podxod__about {
   color: white;
@@ -149,29 +159,120 @@ button {
   padding: 300px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   margin-top: 40px;
 }
 
 .price__info3 {
-  margin-left: 600px;
   max-width: 1827px;
   width: 100%;
   color: white;
   line-height: 30px;
+
+  text-align: right;
 }
 
-.price__h1 {
-  margin-bottom: 80px;
+.price__h1_ {
+  display: flex;
+  flex-direction: column;
+
+  text-align: left;
+
+  width: 400px;
+
+  margin-left: 70%;
 }
 
-.play{
+
+
+.play__youtube {
   margin: 0 auto;
   max-width: 1103px;
   width: 100%;
   height: 600px;
   padding: 70px;
-  
+}
 
-  
+.footer {
+  background-image: url(./fon_brown.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  padding: 200px;
+  color: white;
+}
+.container {
+}
+.footer__h1 {
+  text-align: center;
+  color: white;
+  margin-bottom: 70px;
+}
+.footer__h3 {
+  font-family: Poppins;
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 20px;
+}
+.footer__h1_2 {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.footer__wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer__input {
+  max-width: 350px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  input {
+    max-width: 350px;
+    width: 100%;
+    padding: 20px;
+    background: transparent;
+  }
+  button {
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: transparent;
+    color: white;
+    border: 1px solid black;
+    padding: 20px;
+    width: 100%;
+  }
+}
+
+.end {
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+
+@media  (max-with: 700px) {
+  .info__wrap {
+   
+    flex-direction: column;
+  }
 }
 
