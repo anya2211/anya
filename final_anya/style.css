@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 body {
+  
   font-family: Poppins;
   background-color: black;
   overflow-x: hidden;
@@ -92,6 +93,7 @@ button {
 
 .info__img {
   width: 100%;
+  background-size: cover;
 }
 .info__button {
   width: 240.28px;
@@ -115,7 +117,7 @@ button {
 }
 .coffee {
   background-image: url(fon2.png);
-  padding: 200px;
+  padding: 150px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -156,9 +158,9 @@ button {
 
 .price {
   background-image: url(fon4.png);
-  padding: 300px;
+  padding: 200px;
   background-repeat: no-repeat;
-  background-size: cover;
+  /* background-size: cover; */
   background-position: center;
   margin-top: 40px;
 }
@@ -173,14 +175,14 @@ button {
 }
 
 .price__h1_ {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
 
   text-align: left;
 
-  width: 400px;
+  
 
-  margin-left: 70%;
+  
 }
 
 
@@ -235,15 +237,16 @@ button {
 }
 
 .footer__input {
-  max-width: 350px;
-  width: 100%;
+  /* max-width: 350px; */
+  /* width: 100%; */
 
   display: flex;
   flex-direction: column;
   gap: 30px;
+  background-size: cover;
 
   input {
-    max-width: 350px;
+    /* max-width: 350px; */
     width: 100%;
     padding: 20px;
     background: transparent;
@@ -269,10 +272,32 @@ button {
   margin: 0 auto;
 }
 
-@media  (max-with: 700px) {
-  .info__wrap {
+@media screen and (max-width: 1000px){
+
+  .info__wrap{
    
-    flex-direction: column;
+    flex-wrap: wrap;
   }
 }
 
+@media screen and (max-width: 800px){
+  .price__h3{
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 460px){
+
+  .header__link{
+   display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 855px){
+
+  .footer__wrap{
+  
+    flex-wrap: wrap;
+  }
+}
