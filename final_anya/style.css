@@ -159,8 +159,9 @@ button {
 .price {
   background-image: url(fon4.png);
   padding: 200px;
+  
   background-repeat: no-repeat;
-  /* background-size: cover; */
+  background-size: cover;
   background-position: center;
   margin-top: 40px;
 }
@@ -301,3 +302,37 @@ button {
     flex-wrap: wrap;
   }
 }
+
+@media screen and (max-width: 765px){
+  .price__h1_{
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 965px){
+  .info__wrap{
+
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 655px){
+.price{
+  padding: 40px;
+}
+}
+
+
+@media (max-width: 655px){
+  .podxod{
+    padding: 40px;
+  }
+  }
+
+
+  
+@media (max-width: 655px){
+  .coffee{
+    padding: 40px;
+  }
+  }
