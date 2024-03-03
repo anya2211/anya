@@ -1,0 +1,182 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.big__title{
+    font-weight: 700;
+    font-size: 2.75rem;
+    line-height: 130%;
+}
+
+
+
+
+header{
+    background-image: url(./Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding-bottom: 100px;
+}
+.header__wrapper{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+
+}
+
+.hero__wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+
+    @media (max-width: 800px){
+        grid-template-columns: 1fr;
+    }
+}
+
+.our{
+    padding: 100px 0;
+}
+
+.hero__img{
+    max-width: 570px;
+    width: 100%;
+}
+
+
+.hero__box{
+
+    @media (max-width:500px) {
+        text-align: center;
+    }
+
+
+
+
+    h3{
+        font-weight: 500;
+        font-size: 1.3rem;
+        line-height: 140%;
+        letter-spacing: 0.1em;
+
+    }
+
+    h1{
+        font-weight: 700;
+    font-size: 6.3rem;
+    line-height: 100%;
+
+    @media(max-width: 500px;){
+        font-size: 4rem;
+    }
+    }
+
+
+    b{
+        font-weight: 700;
+        font-size: 2.7rem;
+        line-height: 130%
+    }
+
+s{
+    opacity: 0.7;
+    text-decoration: line-through;
+
+}
+
+button{
+    padding: 15px 46px;
+    background: #fff;
+    border-radius: 62px;
+    color: #FF4948;
+    transition: .3s ease;
+    box-shadow: 4px 7px 10px 4px rgb(0 0 0 / 36%)
+}
+}
+
+
+.our, .catalog, .sub{
+     .big__title{
+      text-align: center;
+     }
+}
+
+.good__box{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+.good__inner{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    h4{
+        font-weight: 500;
+        font-size: 1.9rem;
+        line-height: 140%;
+    }
+
+    p{
+        color: #180202;
+    opacity: 0.7;
+    }
+
+    a{
+        font-weight: 500;
+    color: #FF4948;
+    text-decoration: none;
+    }
+}
+
+.good__wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    @media (max-width: 800px){
+    grid-template-columns: 1fr;
+    }
+}
+
+
+.good__img{
+    max-width: 600px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 800px){
+    grid-template-columns: 1fr;
+}
