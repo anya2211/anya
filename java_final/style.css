@@ -147,7 +147,7 @@ body {
 }
 
 .mebel {
-  padding-top: 100px;
+  padding-top: 200px;
 }
 
 .mebel__h2 {
@@ -156,6 +156,7 @@ body {
   line-height: 50px;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .mebel__img {
@@ -207,6 +208,16 @@ body {
  display: grid;
  grid-template-columns: 1fr 1fr;
 align-items: center;
+
+
+@media (max-width:990px) {
+  display: flex;
+  flex-direction: column;
+   }
+
+
+
+
 }
 
 .img__cena_div {
@@ -220,6 +231,16 @@ align-items: center;
   height: 87px;
   display: flex;
   gap: 25px;
+
+  @media (max-width:990px) {
+  flex-direction: column;
+  margin: 0 auto;
+    
+     }
+
+
+
+ 
 }
 
 .img__cena img {
@@ -256,7 +277,8 @@ align-items: center;
   letter-spacing: -0.035em;
   text-align: center;
   background: rgba(67, 67, 67, 1);
-  width: 125px;
+  width: 122px;
+  padding: 10px;
 }
 
 .cena__button {
@@ -266,8 +288,8 @@ align-items: center;
   letter-spacing: -0.035em;
   text-align: center;
   background: rgba(128, 150, 188, 1);
-  padding: 10px 30px;
-  width: 200px;
+ width: 201px;
+ padding: 10px;
 }
 
 .btn {
@@ -285,6 +307,39 @@ align-items: center;
   font-weight: bolder;
   box-shadow: 0 2px 0 2px #000;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .btn:before {
   content: "";
